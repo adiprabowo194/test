@@ -1,0 +1,220 @@
+/* my css */
+/* all version */
+
+/* topbar */
+section#topbar {
+	background-color: #413c69;
+	display: flex;
+	padding: 8px;
+}
+section#topbar div.kontak a {
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+	margin-left: 10px;
+}
+/* end topbar */
+
+/* menubar */
+img.logo {
+	position: absolute;
+	width: 100px;
+	top: 2px;
+	left: -6px;
+}
+button.navbar-toggler {
+	position: relative;
+	top: 20px;
+}
+.navbar-collapse {
+	margin-top: 30px;
+}
+
+/* end menubar */
+
+/* slider */
+
+section#slider .carousel-item {
+	height: 460px;
+}
+
+section#slider .carousel-inner .carousel-caption p {
+	font-size: 12px;
+}
+section#slider .carousel-inner .carousel-caption {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 60%;
+	height: 140px;
+	padding: 30px;
+	transform: translate(-50%, -40%);
+	color: white;
+	background-color: rgba(64, 57, 121, 0.7);
+}
+
+section#content img.simbol {
+	width: 160px;
+	margin: 30px;
+}
+ol.carousel-indicators {
+	position: relative;
+	top: 250px;
+}
+/* slider */
+
+/* conten isi home */
+img.gambar1 {
+	width: 400px;
+	position: relative;
+	top: -60px;
+}
+img.gambar2 {
+	width: 220px;
+	position: relative;
+	top: 220px;
+	left: 50px;
+}
+img.gambar3 {
+	width: 220px;
+	position: relative;
+	top: 20px;
+	left: 40px;
+	margin-bottom: 20px;
+}
+div.text2 {
+	position: relative;
+	top: -260px;
+}
+
+section#content {
+	position: relative;
+	top: -120px;
+	margin-bottom: -80px;
+}
+section#produkTerbaru {
+	background-color: rgb(224, 224, 224);
+	width: 100%;
+}
+
+section#about p#paragraf.paragraf {
+	font-size: 12px;
+}
+/* end content isi home */
+
+/* conten isi about */
+
+section#about hr {
+	position: relative;
+	top: 30px;
+	margin-bottom: 20px;
+}
+iframe#mapkecil.mapkecil{
+	width:800px;
+	height:200px;
+	margin-left:18px; 
+}
+/* end conten isi about */
+/* dekstop version */
+@media (min-width: 992px) {
+	/* topbar */
+	section#topbar div.kontak a {
+		color: white;
+		font-size: 16px;
+		font-weight: bold;
+	}
+	/* end topbar */
+
+	/* menubar */
+	img.logo {
+		width: 110px;
+		left: 30px;
+	}
+	.navbar-collapse {
+		padding: 25px;
+		margin-bottom: -30px;
+		margin-top: -5px;
+	}
+	nav.navbar {
+		line-height: 10px;
+	}
+	.navbar-nav {
+		position: relative;
+		top: 10px;
+	}
+
+	.navbar-brand::after {
+		content: "PT. Pratama Putra Satria";
+		font-family: Arial, Helvetica, sans-serif;
+		position: relative;
+		top: 20px;
+		left: 120px;
+	}
+	.nav-link:hover::after {
+		content: "";
+		display: block;
+		border-bottom: 3px solid #413c69;
+		margin: auto;
+		width: 30px;
+		margin-top: 8px;
+		margin-bottom: -11px;
+	}
+	.nav-link:hover {
+		font-weight: 450;
+		color: #1d1b2e;
+	}
+	/* end menubar */
+
+	/* slider */
+	section#slider .carousel-item {
+		height: 500px;
+	}
+	section#slider .carousel-inner .carousel-caption {
+		text-align: center;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		width: 60%;
+		height: 140px;
+		padding: 30px;
+		transform: translate(-50%, -50%);
+		color: white;
+		background-color: rgba(64, 57, 121, 0.7);
+	}
+	ol.carousel-indicators {
+		position: relative;
+		top: 480px;
+	}
+	/* end slider */
+
+	/* content isi home */
+	p#paragraf.paragraf {
+		font-size: 18px;
+	}
+	img.gambar1 {
+		width: 400px;
+		position: relative;
+		top: -10px;
+	}
+	img.gambar2 {
+		width: 320px;
+		position: relative;
+		top: -30px;
+		left: 50px;
+	}
+	img.gambar3 {
+		width: 400px;
+	}
+	div.text2 {
+		position: relative;
+		top: 40px;
+	}
+	section#content {
+		position: relative;
+		top: 40px;
+		margin-bottom: 80px;
+	}
+
+	/* end content isi home */
+}
